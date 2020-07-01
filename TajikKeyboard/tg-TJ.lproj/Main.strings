@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "7pL-Yv-8Ah"; */
+"7pL-Yv-8Ah.placeholder" = "Search";
+
+/* Class = "UITextField"; placeholder = "Default"; ObjectID = "ETH-ha-okd"; */
+"ETH-ha-okd.placeholder" = "Default";
+
+/* Class = "UITextField"; placeholder = "Done"; ObjectID = "OtR-SL-Zob"; */
+"OtR-SL-Zob.placeholder" = "Done";
+
+/* Class = "UITabBarItem"; title = "Инструкция"; ObjectID = "Tp8-tt-GCz"; */
+"Tp8-tt-GCz.title" = "Инструкция";
+
+/* Class = "UITabBarItem"; title = "Тафтиш"; ObjectID = "WQY-aa-1CM"; */
+"WQY-aa-1CM.title" = "Тафтиш";
+
+/* Class = "UITextField"; placeholder = "Next"; ObjectID = "yvv-it-C5X"; */
+"yvv-it-C5X.placeholder" = "Next";

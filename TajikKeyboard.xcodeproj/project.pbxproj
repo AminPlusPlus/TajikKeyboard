@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DA86956227962A000270E1B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA86953227962A000270E1B /* ProfileViewController.swift */; };
+		0DA86957227962A000270E1B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA86954227962A000270E1B /* TutorialViewController.swift */; };
+		0DA86958227962A000270E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA86955227962A000270E1B /* ViewController.swift */; };
+		29F0C6092272D2FF00764DE8 /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0C6072272D2FF00764DE8 /* CYRKeyboardButtonView.m */; };
+		29F0C60A2272D2FF00764DE8 /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0C6082272D2FF00764DE8 /* CYRKeyboardButton.m */; };
+		29F0C60D2272D34F00764DE8 /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0C60C2272D34F00764DE8 /* TurtleBezierPath.m */; };
+		5A4FAE352096F2270052E81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE342096F2270052E81A /* AppDelegate.swift */; };
+		5A4FAE3A2096F2270052E81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE382096F2270052E81A /* Main.storyboard */; };
+		5A4FAE3C2096F22B0052E81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3B2096F22B0052E81A /* Assets.xcassets */; };
+		5A4FAE3F2096F22B0052E81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3D2096F22B0052E81A /* LaunchScreen.storyboard */; };
+		5A4FAE4A2096F2AA0052E81A /* Themes+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */; };
+		5A4FAE4C2096F3B10052E81A /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */; };
+		5A4FAE542096F5460052E81A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE532096F5460052E81A /* KeyboardViewController.swift */; };
+		5A4FAE582096F5460052E81A /* BondKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A4FAE512096F5460052E81A /* BondKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A4FAE5D2096F6E00052E81A /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */; };
+		5A4FAE5E2096F6E40052E81A /* Themes+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */; };
+		5A4FAE602096F7340052E81A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE5F2096F7340052E81A /* Extensions.swift */; };
+		5A4FAE612096F73A0052E81A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE5F2096F7340052E81A /* Extensions.swift */; };
+		5A4FAE622096FBCD0052E81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3B2096F22B0052E81A /* Assets.xcassets */; };
+		5A4FAE65209700C00052E81A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE64209700C00052E81A /* MainVC.swift */; };
+		5A4FAE67209700DD0052E81A /* ProcessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE66209700DD0052E81A /* ProcessVC.swift */; };
+		5A4FAE69209700EC0052E81A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE68209700EC0052E81A /* ResultVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4FAE562096F5460052E81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4FAE292096F2270052E81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4FAE502096F5460052E81A;
+			remoteInfo = BondKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A4FAE5C2096F5460052E81A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A4FAE582096F5460052E81A /* BondKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DA86953227962A000270E1B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0DA86954227962A000270E1B /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		0DA86955227962A000270E1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29F0C6042272D2FE00764DE8 /* BondKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BondKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		29F0C6052272D2FE00764DE8 /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		29F0C6062272D2FF00764DE8 /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		29F0C6072272D2FF00764DE8 /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		29F0C6082272D2FF00764DE8 /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		29F0C60B2272D34F00764DE8 /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
+		29F0C60C2272D34F00764DE8 /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		5A4FAE312096F2270052E81A /* TajikKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TajikKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4FAE342096F2270052E81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A4FAE392096F2270052E81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4FAE3B2096F22B0052E81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4FAE3E2096F22B0052E81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A4FAE402096F22B0052E81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Themes+Colors.swift"; sourceTree = "<group>"; };
+		5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		5A4FAE512096F5460052E81A /* BondKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BondKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4FAE532096F5460052E81A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5A4FAE552096F5460052E81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4FAE5F2096F7340052E81A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5A4FAE64209700C00052E81A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5A4FAE66209700DD0052E81A /* ProcessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessVC.swift; sourceTree = "<group>"; };
+		5A4FAE68209700EC0052E81A /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4FAE2E2096F2270052E81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4FAE4E2096F5460052E81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA8694C2279626000270E1B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DA86953227962A000270E1B /* ProfileViewController.swift */,
+				0DA86954227962A000270E1B /* TutorialViewController.swift */,
+				0DA86955227962A000270E1B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		29F0C6032272D2D800764DE8 /* KeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				29F0C60B2272D34F00764DE8 /* TurtleBezierPath.h */,
+				29F0C60C2272D34F00764DE8 /* TurtleBezierPath.m */,
+				29F0C6062272D2FF00764DE8 /* CYRKeyboardButton.h */,
+				29F0C6082272D2FF00764DE8 /* CYRKeyboardButton.m */,
+				29F0C6052272D2FE00764DE8 /* CYRKeyboardButtonView.h */,
+				29F0C6072272D2FF00764DE8 /* CYRKeyboardButtonView.m */,
+				29F0C6042272D2FE00764DE8 /* BondKeyboard-Bridging-Header.h */,
+			);
+			path = KeyboardButton;
+			sourceTree = "<group>";
+		};
+		5A4FAE282096F2270052E81A = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE332096F2270052E81A /* TajikKeyboard */,
+				5A4FAE482096F2610052E81A /* Data&Utilities */,
+				5A4FAE472096F2580052E81A /* View */,
+				5A4FAE522096F5460052E81A /* BondKeyboard */,
+				5A4FAE322096F2270052E81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4FAE322096F2270052E81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE312096F2270052E81A /* TajikKeyboard.app */,
+				5A4FAE512096F5460052E81A /* BondKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4FAE332096F2270052E81A /* TajikKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0DA8694C2279626000270E1B /* Controllers */,
+				5A4FAE342096F2270052E81A /* AppDelegate.swift */,
+				5A4FAE382096F2270052E81A /* Main.storyboard */,
+				5A4FAE3B2096F22B0052E81A /* Assets.xcassets */,
+				5A4FAE3D2096F22B0052E81A /* LaunchScreen.storyboard */,
+				5A4FAE402096F22B0052E81A /* Info.plist */,
+			);
+			path = TajikKeyboard;
+			sourceTree = "<group>";
+		};
+		5A4FAE472096F2580052E81A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A4FAE482096F2610052E81A /* Data&Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE5F2096F7340052E81A /* Extensions.swift */,
+				5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */,
+			);
+			path = "Data&Utilities";
+			sourceTree = "<group>";
+		};
+		5A4FAE522096F5460052E81A /* BondKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				29F0C6032272D2D800764DE8 /* KeyboardButton */,
+				5A4FAE63209700A80052E81A /* Controller */,
+				5A4FAE532096F5460052E81A /* KeyboardViewController.swift */,
+				5A4FAE552096F5460052E81A /* Info.plist */,
+			);
+			path = BondKeyboard;
+			sourceTree = "<group>";
+		};
+		5A4FAE63209700A80052E81A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE64209700C00052E81A /* MainVC.swift */,
+				5A4FAE66209700DD0052E81A /* ProcessVC.swift */,
+				5A4FAE68209700EC0052E81A /* ResultVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4FAE302096F2270052E81A /* TajikKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "TajikKeyboard" */;
+			buildPhases = (
+				5A4FAE2D2096F2270052E81A /* Sources */,
+				5A4FAE2E2096F2270052E81A /* Frameworks */,
+				5A4FAE2F2096F2270052E81A /* Resources */,
+				5A4FAE5C2096F5460052E81A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4FAE572096F5460052E81A /* PBXTargetDependency */,
+			);
+			name = TajikKeyboard;
+			productName = SecNinjazKeyboard;
+			productReference = 5A4FAE312096F2270052E81A /* TajikKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4FAE502096F5460052E81A /* BondKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4FAE592096F5460052E81A /* Build configuration list for PBXNativeTarget "BondKeyboard" */;
+			buildPhases = (
+				5A4FAE4D2096F5460052E81A /* Sources */,
+				5A4FAE4E2096F5460052E81A /* Frameworks */,
+				5A4FAE4F2096F5460052E81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BondKeyboard;
+			productName = BondKeyboard;
+			productReference = 5A4FAE512096F5460052E81A /* BondKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4FAE292096F2270052E81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Leela Prasad";
+				TargetAttributes = {
+					5A4FAE302096F2270052E81A = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+					5A4FAE502096F5460052E81A = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "TajikKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4FAE282096F2270052E81A;
+			productRefGroup = 5A4FAE322096F2270052E81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4FAE302096F2270052E81A /* TajikKeyboard */,
+				5A4FAE502096F5460052E81A /* BondKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4FAE2F2096F2270052E81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4FAE3F2096F22B0052E81A /* LaunchScreen.storyboard in Resources */,
+				5A4FAE3C2096F22B0052E81A /* Assets.xcassets in Resources */,
+				5A4FAE3A2096F2270052E81A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4FAE4F2096F5460052E81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4FAE622096FBCD0052E81A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4FAE2D2096F2270052E81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA86958227962A000270E1B /* ViewController.swift in Sources */,
+				0DA86957227962A000270E1B /* TutorialViewController.swift in Sources */,
+				5A4FAE602096F7340052E81A /* Extensions.swift in Sources */,
+				5A4FAE4C2096F3B10052E81A /* KeyboardButton.swift in Sources */,
+				5A4FAE4A2096F2AA0052E81A /* Themes+Colors.swift in Sources */,
+				0DA86956227962A000270E1B /* ProfileViewController.swift in Sources */,
+				5A4FAE352096F2270052E81A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4FAE4D2096F5460052E81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F0C6092272D2FF00764DE8 /* CYRKeyboardButtonView.m in Sources */,
+				5A4FAE67209700DD0052E81A /* ProcessVC.swift in Sources */,
+				5A4FAE5E2096F6E40052E81A /* Themes+Colors.swift in Sources */,
+				5A4FAE65209700C00052E81A /* MainVC.swift in Sources */,
+				5A4FAE5D2096F6E00052E81A /* KeyboardButton.swift in Sources */,
+				5A4FAE69209700EC0052E81A /* ResultVC.swift in Sources */,
+				29F0C60A2272D2FF00764DE8 /* CYRKeyboardButton.m in Sources */,
+				5A4FAE542096F5460052E81A /* KeyboardViewController.swift in Sources */,
+				5A4FAE612096F73A0052E81A /* Extensions.swift in Sources */,
+				29F0C60D2272D34F00764DE8 /* TurtleBezierPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4FAE572096F5460052E81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4FAE502096F5460052E81A /* BondKeyboard */;
+			targetProxy = 5A4FAE562096F5460052E81A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4FAE382096F2270052E81A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4FAE392096F2270052E81A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4FAE3D2096F22B0052E81A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4FAE3E2096F22B0052E81A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4FAE412096F22B0052E81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4FAE422096F22B0052E81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4FAE442096F22B0052E81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJENA3UE68;
+				INFOPLIST_FILE = "$(SRCROOT)/TajikKeyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tj.amin.TajikKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4FAE452096F22B0052E81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJENA3UE68;
+				INFOPLIST_FILE = "$(SRCROOT)/TajikKeyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tj.amin.TajikKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4FAE5A2096F5460052E81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJENA3UE68;
+				INFOPLIST_FILE = BondKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tj.amin.TajikKeyboard.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BondKeyboard/KeyboardButton/BondKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4FAE5B2096F5460052E81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJENA3UE68;
+				INFOPLIST_FILE = BondKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tj.amin.TajikKeyboard.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BondKeyboard/KeyboardButton/BondKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "TajikKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4FAE412096F22B0052E81A /* Debug */,
+				5A4FAE422096F22B0052E81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "TajikKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4FAE442096F22B0052E81A /* Debug */,
+				5A4FAE452096F22B0052E81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4FAE592096F5460052E81A /* Build configuration list for PBXNativeTarget "BondKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4FAE5A2096F5460052E81A /* Debug */,
+				5A4FAE5B2096F5460052E81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4FAE292096F2270052E81A /* Project object */;
+}
